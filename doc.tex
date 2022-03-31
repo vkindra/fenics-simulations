@@ -1,0 +1,56 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{lscape,amssymb,fancyhdr,psfrag,makeidx,setspace,color,graphicx,float,mathptmx,textfit,multirow,booktabs,verbatim,currfile,dirtree,listings,enumitem,ulem}
+\usepackage[fleqn]{amsmath}
+\usepackage[english]{babel} 
+%\usepackage[hang,raggedright,nooneline]{subfigure}
+\usepackage[latin1]{inputenc}
+\usepackage[a4paper,left=20mm,right=20mm,top=15mm,bottom=25mm]{geometry}
+\setlength{\parindent}{0cm}
+\pagestyle{plain}
+\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000
+\setlength{\mathindent}{5mm}
+\usepackage[square,sort]{natbib} % Author and Year
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+\makeatletter
+\renewcommand\section{\@startsection
+   {section}{1}{0mm}%
+   {1\baselineskip}%
+   {1\baselineskip}%
+   {\bfseries\bf\normalsize}%
+   }
+\makeatother
+\makeatletter
+\renewcommand\subsection{\@startsection
+   {subsection}{2}{0mm}%
+   {1\baselineskip}%
+   {1\baselineskip}% 
+   {\bfseries\bf\small}%
+   }
+%
+\begin{document}
+%
+{\large\bf\textsf{Memorandum: Coupled multiphysics simulation using Fenics Software}}\\\\
+{\textsf{Falkenberg, Rainer\footnote{BAM Bundesanstalt f\"ur Materialforschung und -pr\"ufung,\\Dep. 5.2, Unter den Eichen 87, 12205 Berlin (Germany),\\ rainer.falkenberg@bam.de, +49-(0)-30-8104-4182}} \& Vitaliy Kindrachuk\footnotemark[1]}\\\\
+\today\\\\
+%
+{\normalsize\bf\textsf{Keywords:}} \textsf{Coupled multifield simulations, fenics}\\\\
+{\normalsize\bf\textsf{Abstract:}} ---
+%
+%\tableofcontents
+%
+\section{General steps}
+%
+\begin{itemize}[nosep]
+\item Step 1
+\end{itemize}
+
+%
+%\renewcommand*{\bibfont}{\footnotesize}
+%\bibliographystyle{abbrvnat}
+%\bibliography{/media/truecrypt1/01_literature/00_jabref/jabref_4_3_1/rainer_falkenberg}
+%
+%\appendix
+%
+\end{document}
